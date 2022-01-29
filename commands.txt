@@ -1,0 +1,143 @@
+    1  ls
+    2  rm -rf terraform_0.15.3_linux_amd64.zip 
+    3  sudo systemctl start grafana-server
+    4  prometheus 
+    5  prometheus --config.file=/opt/prometheus-2.27/prometheus.yml
+    6  sudo apt remove docker-compose 
+    7  sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+    8  sudo chmod +x /usr/local/bin/docker-compose
+    9  docker-compose --version
+   10  clear
+   11  docker --version
+   12  sudo systemctl status grafana-server
+   13  sudo systemctl enable grafana-server
+   14  cd /etc/systemd/system/
+   15  ks
+   16  ls
+   17  vi tomcat.service 
+   18  sudo vi prometheus.service
+   19  cd ~
+   20  sudo vi prometheus
+   21  cd /etc/systemd/system/
+   22  sudo vi prometheus.service
+   23  sudo systemctl status prometheus
+   24  sudo vi prometheus.service
+   25  sudo systemctl status prometheus
+   26  sudo systemctl start prometheus
+   27  sudo systemctl enable prometheus
+   28  cd /etc/systemd/system
+   29  ls
+   30  vi tomcat.service 
+   31  pwd
+   32  ll
+   33  cls
+   34  clear
+   35  mkdir devops
+   36  cd devops/
+   37  git clone https://github.com/shadab2313/DevOps01222022.git
+   38  ll
+   39  cd DevOps01222022/
+   40  ll
+   41  git log
+   42  git branch
+   43  clear
+   44  git branch
+   45  git branch develop
+   46  git branch
+   47  git branch -d develop
+   48  git branch feature
+   49  git branch
+   50  git checkout feature
+   51  git logs
+   52  git log
+   53  git checkout main
+   54  ll
+   55  vim README.md 
+   56  git status
+   57  git add README.md 
+   58  git commit -m "change in main branch"
+   59  git config --global user.email "shadabakhtar200@gmail.com"
+   60  git config --global user.name "shadab2313"
+   61  git commit -m "change in main branch"
+   62  git push
+   63  clear
+   64  echo $origin
+   65  echo $Origin
+   66  git log --oneline
+   67  git clone https://github.com/SamPriyadarshi/addressbook.git
+   68  ll
+   69  cd addressbook/
+   70  ll
+   71  cd ..
+   72  rm -rf addressbook/
+   73  ll
+   74  git clone https://github.com/shadab2313/addressbook.git
+   75  ll
+   76  cd addressbook/
+   77  git clear
+   78  clear
+   79  java --version
+   80  java--version
+   81  java -version
+   82  mvn --version
+   83  mvn compile
+   84  ll
+   85  cd target/
+   86  ll
+   87  cd classes/
+   88  ll
+   89  cd ../..
+   90  clear
+   91  mvn clean
+   92  ll
+   93  mvn compile
+   94  ll
+   95  clear
+   96  ll
+   97  clear
+   98  mvn package
+   99  ll
+  100  cd target/
+  101  ll
+  102  clear
+  103  service tomcat
+  104  apt install tomcat9
+  105  sudo apt install tomcat9
+  106  cd /var/lib/
+  107  ll
+  108  cd tomcat9/
+  109  service tomcat9 status
+  110  sudo service tomcat9 status
+  111  sudo service jenkins stop
+  112  sudo service tomcat9 restart
+  113  ll
+  114  cd /
+  115  pwd
+  116  ll
+  117  cd home/edureka/
+  118  ll
+  119  cd devops/
+  120  ll
+  121  cd DevOps01222022/
+  122  ll
+  123  cd addressbook/
+  124  ll
+  125  cd target/
+  126  ll
+  127  cd /var/lib/tomcat9/webapps/
+  128  cp /devops/DevOps01222022/addressbook/target/addressbook.war .
+  129  cp ~/devops/DevOps01222022/addressbook/target/addressbook.war .
+  130  sudo cp ~/devops/DevOps01222022/addressbook/target/addressbook.war .
+  131  ll
+  132  sudo service tomcat9 restart
+  133  cd ~/devops/DevOps01222022/addressbook/target/
+  134  ll
+  135  cd ..
+  136  mvn clean install
+  137  cd target/
+  138  ll
+  139  history
+  140  echo history > commands.txt
+  141  ll
+  142  cat commands.txt
+  143  history > commands.txt
